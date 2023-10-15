@@ -2,6 +2,11 @@ from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskForm
 
+"""
+Методы обрабатывают логику работы страниц - index - главная страница, 
+create - добавление записи, about - страница об авторе.
+"""
+
 
 def index(request):
     tasks = Task.objects.order_by('id')
@@ -30,5 +35,8 @@ def about(request):
     return render(request, 'main/about.html')
 
 
+"""
+Простой пример
 # def about(request):
 #     return HttpResponse("<h4>About</h4>")
+"""
