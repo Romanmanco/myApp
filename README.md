@@ -4,6 +4,11 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Here+i+learning+how+to+make+web-server)](https://git.io/typing-svg)
 
-Данный проект позволил создан для ознакомления с некоторыми возможностями фреймворка Django.
+Данный проект создан для ознакомления с некоторыми возможностями фреймворка Django.
 
-Стек технологий: Python, Django.
+# миграции
+python manage.py makemigrations
+python manage.py migrate
+
+# стек технологий
+Python, Django, postgresql.
